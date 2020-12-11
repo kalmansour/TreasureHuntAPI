@@ -1,7 +1,7 @@
 module.exports = (sequelize, DataTypes) => {
   const Thing = sequelize.define("Thing", {
     name: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
     },
     isTreasure: {
       type: DataTypes.BOOLEAN,
